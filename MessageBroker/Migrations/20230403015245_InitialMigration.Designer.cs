@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MessageBroker.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230403012523_initialmigration")]
-    partial class initialmigration
+    [Migration("20230403015245_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
