@@ -1,0 +1,2 @@
+dotnet new webapi -minimal -n MessageBroker
+
