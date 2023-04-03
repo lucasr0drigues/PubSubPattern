@@ -1,2 +1,5 @@
 dotnet new webapi -minimal -n MessageBroker
 
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+
+dotnet add package Microsoft.EntityFrameworkCore.Design
